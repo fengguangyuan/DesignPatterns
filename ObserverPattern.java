@@ -1,6 +1,10 @@
 import java.util.List;
 import java.util.ArrayList;
 
+/**
+ * Listener / Event has the similar structure.
+ */
+
 abstract class Subject {
     private List<Observer> observers = new ArrayList<Observer>();
 
