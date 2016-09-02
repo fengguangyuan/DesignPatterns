@@ -5,6 +5,8 @@ using namespace std;
 
 /*********************************
 ** Simple Factory Pattern
+** Weakness:
+**   The core factory class would do too many works.
 *********************************/
 class Product {
     public:
