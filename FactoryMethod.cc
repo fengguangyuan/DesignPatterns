@@ -4,6 +4,8 @@ using namespace std;
 
 /*********************************
 ** Factory Method Pattern
+** Weakness:
+**   Kinds of class objects will be increased doubly.
 *********************************/
 class Product {
     public:
